@@ -8,7 +8,7 @@ A battle-tested skill suite for **Claude Code**, designed for engineers, leads, 
 
 ```
 /Users/khaledtaha/.claude/skills/khaled-skills/jira/
-├── ticket-lifecycle/
+├── handle-ticket/
 │   └── SKILL.md                 # Intake, DoR triage, branch kickoff, WIP/standup updates
 ├── ticket-closer/
 │   └── SKILL.md                 # 5-Gate DoD validation, test proof, resolution summary
@@ -25,7 +25,7 @@ A battle-tested skill suite for **Claude Code**, designed for engineers, leads, 
 ## Skills Overview
 
 ### 1. `jira-handle-ticket` (Ticket Intake, Kickoff & Keep Updated)
-* **Path:** `ticket-lifecycle/SKILL.md`
+* **Path:** `handle-ticket/SKILL.md`
 * **Trigger Phrases:** `"handle ticket"`, `"start ticket"`, `"triage ticket"`, `"kickoff ticket"`, `"update ticket"`, `"ticket standup"`, `"ticket progress"`, `"sync ticket"`
 * **Core Capabilities:**
   * **Definition of Ready (DoR) Gate:** Audits incoming tickets for clear user stories, measurable Acceptance Criteria (AC), and reproduction steps for bugs. Blocks work on vague tickets with a polite clarification comment.
