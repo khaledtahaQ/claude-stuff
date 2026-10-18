@@ -24,7 +24,7 @@ A battle-tested skill suite for **Claude Code**, designed for engineers, leads, 
 
 ## Skills Overview
 
-### 1. `jira-ticket-lifecycle`
+### 1. `jira-handle-ticket` (Ticket Intake, Kickoff & Keep Updated)
 * **Path:** `ticket-lifecycle/SKILL.md`
 * **Trigger Phrases:** `"handle ticket"`, `"start ticket"`, `"triage ticket"`, `"kickoff ticket"`, `"update ticket"`, `"ticket standup"`, `"ticket progress"`, `"sync ticket"`
 * **Core Capabilities:**
