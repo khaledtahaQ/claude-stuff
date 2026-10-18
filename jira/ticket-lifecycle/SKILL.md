@@ -1,5 +1,5 @@
 ---
-name: jira-ticket-lifecycle
+name: jira-handle-ticket
 version: "1.0"
 description: >
   Manages Jira ticket intake, Definition of Ready triage, work kickoff, and daily progress
@@ -7,6 +7,7 @@ description: >
   requirements, post progress/standup updates, or track blockers on a Jira ticket.
 triggers:
   - "handle ticket"
+  - "jira-ticket-lifecycle"
   - "start ticket"
   - "triage ticket"
   - "kickoff ticket"
@@ -24,7 +25,6 @@ allowed-tools:
   - "glob"
   - "mcp__atlassian__getJiraIssue"
   - "mcp__atlassian__search"
-  - "mcp__atlassian__lookupJiraAccountId"
 metadata:
   author: Khaled Taha
   category: jira-management
